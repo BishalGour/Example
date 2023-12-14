@@ -3,7 +3,7 @@ package com.jsp.example;
 public class User {
 	private int userId;
 	private String useremail;
-	private String userPassword;
+	
 	
 	public int getUserId() {
 		return userId;
@@ -23,12 +23,7 @@ public class User {
 	public void setUseremail(String useremail) {
 		this.useremail = useremail;
 	}
-	public String getUserPassword() {
-		return userPassword;
-	}
-	public void setUserPassword(String userPassword) {
-		this.userPassword = userPassword;
-	}
+	
 	private String username ;
 
 
